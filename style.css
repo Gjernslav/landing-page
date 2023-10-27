@@ -119,6 +119,38 @@ button {
     max-width: 200px;
 }
 
+img {
+    border-radius: 7%;
+}
+
+
 .text-mid {
     color: #1f2937;
+}
+
+.lmid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 292px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 996px;
+    height: 200px;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    align-content: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.strong {
+    display: flex;
 }
