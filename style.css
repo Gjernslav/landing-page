@@ -83,6 +83,7 @@ button {
     border-radius: 8px;
     background-color: #3882f6;
     box-shadow: none;
+    color: #f9faf8;
 }
 .mid {
     display: flex;
