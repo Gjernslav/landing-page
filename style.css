@@ -1,6 +1,6 @@
-* {
+/* * {
     border: red solid 2px;
-}
+} */
 
 body {
     display: flex;
@@ -153,4 +153,58 @@ img {
 
 .strong {
     display: flex;
+}
+
+.last {
+    display: flex;
+    height: 292px;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.last-container {
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    background-color: #3882f6;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+
+.last-text {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    gap: 6px;
+}
+
+h2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 16px;
+    border-radius: 8px;
+    box-shadow: none;
+    color: #f9faf8;
+}
+
+.sign-up {
+    display: flex;
+    border-color: #e5e7eb;
+    border-radius: 8px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 18px;
+    height: 69px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
